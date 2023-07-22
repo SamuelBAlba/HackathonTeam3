@@ -1,9 +1,13 @@
+import React from 'react';
+import Locations from "../Components/Locations";
 
-import React from 'react'
-
-export default function Index() {
+function App() {
   return (
-    <div>Index</div>
-  )
-
+    <div>
+      <Locations />
+    </div>
+  );
 }
+
+export default App;
+
