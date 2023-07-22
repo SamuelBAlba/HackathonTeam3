@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './index.css';
+
 
 import Nav from "./Components/Nav"
 
@@ -20,11 +20,11 @@ function App() {
       
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<Index />} />
-          <Route path="/" element={<Info />} />
-          <Route path="/" element={<Petition />} />
-          <Route path="/" element={<FourOFour />} />
-          <Route path="/" element={<Team/>} />
+          <Route path="/index" element={<Index />} />
+          <Route path="/index/info" element={<Info />} />
+          <Route path="/index/petition" element={<Petition />} />
+          <Route path="/index/team" element={<Team/>} />
+          <Route path="*" element={<FourOFour />} />
 
         </Routes>
 
