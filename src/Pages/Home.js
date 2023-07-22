@@ -9,7 +9,9 @@ export default function Home() {
         <>
         <div className='container'>
         <Link to ={`//`}>
-            <h1 className='header'>Title of home page</h1>
+            <h1 className='header'>What is our app about?</h1>
+
+            <h1 className='header'>How recycling can help the planet</h1>
         </Link>
         </div>
         </>
