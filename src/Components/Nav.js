@@ -1,23 +1,24 @@
 
 import { Link } from "react-router-dom";
-// import "../Css/Nav.css";
+import "../Css/Nav.css";
+import logo from "./logo.jpeg"
 
 function Nav() {
   return (
     <nav className="navbar">
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
+      
+      
+          <Link to="/"><img src={logo} alt="logo" width="150px"></img></Link>
 
-        <li>
-          {/* <Link</Link> */}
-        </li>
+        
+          <Link to="/index"> View Locations </Link>
 
-        <li>
-          {/* <Link</Link> */}
-        </li>
-      </ul>
+        
+          <Link to="/index/info"> How To Recycle </Link>
+
+        
+          <Link to ="/index/team"> Team </Link>
+     
     </nav>
   );
 }
