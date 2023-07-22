@@ -14,10 +14,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <header className="App-header">
-         <Nav />
-      </header>
       
+         <Nav />
+      
+      <main>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/index" element={<Index />} />
@@ -27,6 +28,7 @@ function App() {
           <Route path="*" element={<FourOFour />} />
 
         </Routes>
+      </main>
 
       </Router>
     </div>

@@ -1,0 +1,31 @@
+.navbar {
+background-color: #E9EDC9;
+border-radius: 20px;
+font-size: 20px;
+box-shadow: 2px 2px 15px 5px #ADC178;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #D4A373;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+.navbar a:hover {
+    color: #ADC178;
+}
+
+.navbar li {
+    list-style: none;
+    
+}
+
+.navbar img {
+    border-radius: 15px;
+}
