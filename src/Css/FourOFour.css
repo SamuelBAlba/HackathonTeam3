@@ -1,7 +1,7 @@
-div.FourOFour h1{
+div.FourOFour h1 {
     display: flex;
     justify-content: center;
-    color:#ADC178;
+    color: #ADC178;
 }
 
 div.img {
