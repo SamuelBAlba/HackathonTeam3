@@ -9,18 +9,36 @@
   margin-top: 20px;  
 }
 
-.locations-table th,
-.locations-table td {
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #ddd;
-}
-
-.locations-table th {
-  background-color: #f2f2f2;
-}
-
 .Sort {
   justify-content: center;
   text-align: center;
 }
+ 
+  .locations-table th,
+  .locations-table td {
+    padding: 10px;
+    text-align: center; 
+    border: 1px solid #ddd;
+    background-color: #E9EDC9; 
+  }
+  
+  .locations-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .address-cell {
+    width: 2%;
+  }
+  
+  .mgp-cell {
+    width: 1%;
+  }
+  
+  .zone-cell {
+    width: 1%;
+  }
+  
+  .paper-cell {
+    width: 1%;
+  }
+  
