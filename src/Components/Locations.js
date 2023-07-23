@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../Css/Locations.css'
 
 const Locations = () => {
   const [data, setData] = useState([]);
@@ -19,7 +20,7 @@ const Locations = () => {
   return (
     <div>
       <h1>Recycling Guide</h1>
-      <table>
+      <table className='locations-table'>
         <thead>
           <tr>
             <th>Borough</th>
