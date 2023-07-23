@@ -1,21 +1,9 @@
-/* div.Info h1{
-    display: flex;
-    justify-content: center;
-    color:#ADC178;
+div.Info {
+    text-align: left;
 }
 
-div.Info img {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    border-radius: 50px;
-} */
-
-div.Info {
-    text-align: center;
+div.Info h1 {
+    color: #ADC178;
 }
 
 div.Info .img-container {
@@ -25,7 +13,6 @@ div.Info .img-container {
 }
 
 div.Info img {
-    width: 50%;
+    width: 45%;
     border-radius: 40px;
 }
-

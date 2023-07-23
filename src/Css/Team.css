@@ -3,8 +3,8 @@ div.Team {
     justify-content: space-evenly;
 }
 
-div.Team h1{
-    color:#ADC178;
+div.Team h1 {
+    color: #ADC178;
 }
 
 div.Team h2 {
@@ -17,17 +17,20 @@ div.Angel {
     box-shadow: 2px 2px 15px 5px #ADC178;
     padding: 20px;
 }
+
 div.Angel img {
     border-radius: 20px;
 }
+
 div.Team a {
     text-decoration: none;
-    color:#D4A373 ;
+    color: #D4A373;
     font-size: larger;
     font-weight: bold;
 }
+
 div.Team a:hover {
-    color:#ADC178;
+    color: #ADC178;
 }
 
 
@@ -36,6 +39,7 @@ div.Johnny {
     box-shadow: 2px 2px 15px 5px #ADC178;
     padding: 20px;
 }
+
 div.Johnny img {
     border-radius: 20px;
 }
@@ -45,6 +49,7 @@ div.Sam {
     box-shadow: 2px 2px 15px 5px #ADC178;
     padding: 20px;
 }
+
 div.Sam img {
     border-radius: 20px;
 }
@@ -59,6 +64,3 @@ div.Max {
 div.Max img {
     border-radius: 25px;
 }
-
-
-
