@@ -9,6 +9,11 @@ justify-content: space-between;
 align-items: center;
 }
 
+.navbar img:hover{
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px 10px palegreen;
+}
+
 .navbar a {
     text-decoration: none;
     margin-right: 25px;
