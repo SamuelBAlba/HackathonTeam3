@@ -8,17 +8,23 @@ form {
 
 input[type],
 textarea {
+    
     display: block;
     width: 100%;
     border-radius: 5px;
     color: limegreen;
-    font-size: x-large;
-    font-weight: bolder;
+    font-size: large;
+    font-weight: 500;
 }
 
 input[type="submit"] {
     width: 40%;
     border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    background-color: green;
 }
 
 button {
@@ -26,4 +32,14 @@ button {
     color: limegreen;
     font-size: larger;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: green;
+}
+
+label {
+    color: #D4A373;
+    font-size: x-large;
+    font-weight: bolder;
 }
