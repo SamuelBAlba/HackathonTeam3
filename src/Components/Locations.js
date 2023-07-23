@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../Css/Locations.css'
+//git errors
 
 const Locations = () => {
   const [data, setData] = useState([]);
