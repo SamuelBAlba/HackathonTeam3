@@ -9,6 +9,7 @@ import Petitionform from "./Pages/Petitionform"
 import Petitioners from './Pages/Petitioners';
 import FourOFour from "./Pages/FourOFour"
 import Team from "./Pages/Team"
+import LocationDetails from './Components/LocationDetails';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/index" element={<Index />} />
             <Route path="/index/info" element={<Info />} />
+            <Route path='/index/detail/:borough' element={<LocationDetails/>}/>
             <Route path="/index/petitionform" element={<Petitionform />} />
             <Route path="/index/petitionform/petitioners" element={<Petitioners />} />
             <Route path="/index/team" element={<Team />} />
