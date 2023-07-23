@@ -19,13 +19,26 @@ const Locations = () => {
   return (
     <div>
       <h1>Recycling Guide</h1>
-      <ul>
-        {data.map((item) => (
-          <li key={item.mgp_bins}>
-            Item: {item.mgp_bins}, Recycle Type: {item.site_location}
-          </li>
-        ))}
-      </ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Borough</th>
+            <th>Metal, Glass, and Plastic Bins</th>
+            <th>Paper Bins</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item) => (
+            <tr key={item.id}>
+              <td>{item.dsny_zone}</td>
+              <td>{item.mgp_bins}</td>
+              <td>{item.paper_bins}</td>
+              <td>{item.site_location}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
