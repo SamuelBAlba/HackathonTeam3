@@ -2,7 +2,7 @@
     background-color: #D4A373;
     border-radius: 20px;
     font-size: 20px;
-    box-shadow: 2px 2px 15px 5px #D4A373;
+    /* box-shadow: 2px 2px 15px 5px #D4A373; */
     padding: 10px;
     display: flex;
     justify-content: space-between ;
@@ -25,7 +25,7 @@
 }
 
 .navbar a:hover {
-    color: #ADC178;
+    color: green;
 }
 
 .navbar li {
