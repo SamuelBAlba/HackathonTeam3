@@ -12,20 +12,6 @@ div.Info img {
     margin: auto;
     width: 100%;
     border-radius: 50px;
-} */
 
-div.Info {
-    text-align: center;
-}
-
-div.Info .img-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-div.Info img {
-    width: 50%;
-    border-radius: 40px;
 }
 
