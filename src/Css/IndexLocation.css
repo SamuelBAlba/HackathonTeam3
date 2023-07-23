@@ -1,13 +1,8 @@
-div.Index button a{
+div.Index button a {
   text-decoration: none;
   color: limegreen;
-  
 }
 
 div.Index button:hover {
-    background-color: green;
+  background-color: green;
 }
-
-  /* div.Index h1{
-  
-  } */
