@@ -1,4 +1,4 @@
-div.Info h1{
+/* div.Info h1{
     display: flex;
     justify-content: center;
     color:#ADC178;
@@ -12,5 +12,6 @@ div.Info img {
     margin: auto;
     width: 100%;
     border-radius: 50px;
+
 }
 
