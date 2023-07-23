@@ -1,7 +1,12 @@
+.table-container {
+  max-height: 400px; 
+  overflow: auto; 
+}
+
 .locations-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 20px;  
 }
 
 .locations-table th,
@@ -13,4 +18,9 @@
 
 .locations-table th {
   background-color: #f2f2f2;
+}
+
+.Sort {
+  justify-content: center;
+  text-align: center;
 }
