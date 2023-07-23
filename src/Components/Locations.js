@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../Css/Locations.css'
+import { Link } from 'react-router-dom'
 
 const Locations = () => {
   const [data, setData] = useState([]);
@@ -53,9 +54,14 @@ const Locations = () => {
                   return item.dsny_zone === selectedBorough;
                 }
               }).map((item) => (
-            <tr key={item.id}>
-              <td className='mgp-cell'>{item.dsny_zone}</td>
-              <td className='mgp-cell'>{item.mgp_bins}</td>
+                <tr key={item.id}>
+
+
+ 
+ <td className='mgp-cell'>
+                    <Link to={`/index/location/${item.dsny_zone}`}>{item.dsny_zone}</Link>
+                  </td>
+                <td className='mgp-cell'>{item.mgp_bins}</td>
               <td className='paper-cell'>{item.paper_bins}</td>
               <td className='address-cell'>{item.site_location}</td>
             </tr>
