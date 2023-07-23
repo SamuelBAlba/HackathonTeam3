@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <div className='Index'>
       <button>
-        <Link to="/index/petitionform">Sign A Petition</Link>
+        <Link to="/index/petitionform">Request A Location</Link>
       </button>
       <Locations />
     </div>
