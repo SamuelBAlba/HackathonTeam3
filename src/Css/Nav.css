@@ -1,8 +1,8 @@
 .navbar {
-    background-color: #E9EDC9;
+    background-color: #D4A373;
     border-radius: 20px;
     font-size: 20px;
-    box-shadow: 2px 2px 15px 5px #ADC178;
+    box-shadow: 2px 2px 15px 5px #D4A373;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 .navbar a {
     text-decoration: none;
     margin-right: 25px;
-    color: #A98467;
+    color: #E9EDC9;
     font-size: x-large;
     font-weight: bolder;
 }
