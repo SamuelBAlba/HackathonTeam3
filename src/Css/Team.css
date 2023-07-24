@@ -1,0 +1,66 @@
+div.Team {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.Team h1 {
+    color: #ADC178;
+}
+
+div.Team h2 {
+    font-weight: bolder;
+    color: #D4A373;
+}
+
+div.Angel {
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px #ADC178;
+    padding: 20px;
+}
+
+div.Angel img {
+    border-radius: 20px;
+}
+
+div.Team a {
+    text-decoration: none;
+    color: #D4A373;
+    font-size: larger;
+    font-weight: bold;
+}
+
+div.Team a:hover {
+    color: #ADC178;
+}
+
+
+div.Johnny {
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px #ADC178;
+    padding: 20px;
+}
+
+div.Johnny img {
+    border-radius: 20px;
+}
+
+div.Sam {
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px #ADC178;
+    padding: 20px;
+}
+
+div.Sam img {
+    border-radius: 20px;
+}
+
+
+div.Max {
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px #ADC178;
+    padding: 20px;
+}
+
+div.Max img {
+    border-radius: 25px;
+}

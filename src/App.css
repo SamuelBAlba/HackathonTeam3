@@ -1,13 +1,28 @@
-.App {
-  text-align: center;
+/* Mobile Styles (up to 768px) */
+@media (max-width: 768px) {
+  /* Add mobile-specific styles here */
 }
 
-.App-logo {
+/* Tablet Styles (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Add tablet-specific styles here */
+}
+
+/* Desktop Styles (993px and above) */
+@media (min-width: 993px) {
+  /* Add desktop-specific styles here */
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
