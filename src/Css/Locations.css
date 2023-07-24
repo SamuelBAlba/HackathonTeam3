@@ -1,9 +1,19 @@
+.table-container {
+  max-height: 400px; 
+  overflow: auto; 
+}
+
 .locations-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;  
+}
+
+.Sort {
+  justify-content: center;
+  text-align: center;
+}
+ 
   .locations-table th,
   .locations-table td {
     padding: 10px;

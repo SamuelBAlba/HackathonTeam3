@@ -5,8 +5,9 @@
     /* box-shadow: 2px 2px 15px 5px #D4A373; */
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
+    
 }
 
 .navbar img:hover {
@@ -20,6 +21,7 @@
     color: #E9EDC9;
     font-size: x-large;
     font-weight: bolder;
+    
 }
 
 .navbar a:hover {
