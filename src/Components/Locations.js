@@ -20,6 +20,13 @@ const Locations = () => {
       });
   }, []);
 
+  const calculateTotalBins = (item) => {
+    const mgpBins = parseInt(item.mgp_bins);
+    const paperBins = parseInt(item.paper_bins);
+    return mgpBins + paperBins;
+  };
+
+
   return (
     <div>
       <section>
@@ -62,7 +69,7 @@ const Locations = () => {
                   </td>
                   <td className='mgp-cell'>
 
-                  Metal, Glass, and Plastic Bins: {item.mgp_bins}, Paper Bins: {item.paper_bins}
+                  Total Bins: {calculateTotalBins(item)}
                  </td>
               <td className='address-cell'>{item.site_location}</td>
             </tr>

@@ -31,6 +31,8 @@ const LocationDetails = () => {
       <p className="details">Site Type: {boroughData.site_type}</p>
       <p className="details">District: {boroughData.dsny_district}</p>
       <p className="details">Partner: {boroughData.partner}</p>
+      <p className="details">Metal, glass and plastic bins: {boroughData.mgp_bins}</p>
+      <p className="details">Paper bins: {boroughData.paper_bins}</p>
     </div>
   );
 };
