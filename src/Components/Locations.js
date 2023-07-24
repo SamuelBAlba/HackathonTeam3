@@ -37,15 +37,14 @@ const Locations = () => {
             <thead>
               <tr>
                 <th>Borough</th>
-                <th>Metal, Glass, and Plastic Bins</th>
-                <th>Paper Bins</th>
+                <th>Bins</th>
                 <th>Address</th>
               </tr>
             </thead>
             <tbody>
               {data.filter((item) => {
                 if (selectedBorough === "All") {
-                  return true; // Show all items when "All" is selected
+                  return true; 
                 } else if (selectedBorough === "BK") {
                   return item.dsny_zone === "BKN" || item.dsny_zone === "BKS";
                 } else if (selectedBorough === "QN") {
@@ -61,8 +60,10 @@ const Locations = () => {
  <td className='mgp-cell'>
                     <Link to={`/index/location/${item.dsny_zone}`}>{item.dsny_zone}</Link>
                   </td>
-                <td className='mgp-cell'>{item.mgp_bins}</td>
-              <td className='paper-cell'>{item.paper_bins}</td>
+                  <td className='mgp-cell'>
+
+                  Metal, Glass, and Plastic Bins: {item.mgp_bins}, Paper Bins: {item.paper_bins}
+                 </td>
               <td className='address-cell'>{item.site_location}</td>
             </tr>
               ))}
