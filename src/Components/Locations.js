@@ -33,7 +33,7 @@ const Locations = () => {
         <h1>Recycling Guide</h1>
         <div className='Sort'>
           <button onClick={() => setSelectedBorough("BX")}>Bronx</button>
-          <button onClick={() => setSelectedBorough("MAN")}>Manhatten</button>
+          <button onClick={() => setSelectedBorough("MAN")}>Manhattan</button>
           <button onClick={() => setSelectedBorough("BK")}>Brooklyn</button> 
           <button onClick={() => setSelectedBorough("QN")}>Queens</button>
           <button onClick={() => setSelectedBorough("SI")}>Staten Island</button> 
